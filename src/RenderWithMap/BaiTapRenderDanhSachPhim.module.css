@@ -1,0 +1,8 @@
+.hinhAnhPhim{
+    height: 300px;
+}
+.moTaPhim{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
