@@ -11,8 +11,11 @@ import BaiTapChonXe from './DemoState/BaiTapChonXe/BaiTapChonXe';
 import RenderWithMap from './RenderWithMap/RenderWithMap';
 import BaiTapRenderDanhSachPhim from './RenderWithMap/BaiTapRenderDanhSachPhim';
 import DemoProps from './Props/DemoProps';
-import ProductList from './Components/BaiTapLayout/ProductList';
+// import ProductList from './Components/BaiTapLayout/ProductList';
 import ProductListRCC from './Props/ProductListRCC';
+import ProductList from './Props/PropsWithEvent/ProductList'
+import PropsWithEvent from './Props/PropsWithEvent/PropsWithEvent'
+import BaiTapGioHangRedux from './BaiTapRedux/BaiTapGioHangRedux/BaiTapGioHangRedux';
 
 function App() {
   return (
@@ -26,7 +29,10 @@ function App() {
       {/* <RenderWithMap /> */}
       {/* <BaiTapRenderDanhSachPhim /> */}
       {/* <DemoProps /> */}
-      <ProductListRCC />
+      {/* <ProductListRCC /> */}
+      {/* <ProductList /> */}
+      {/* <PropsWithEvent /> */}
+      <BaiTapGioHangRedux />
     </div>
   );
 }
